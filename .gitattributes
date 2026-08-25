@@ -1,0 +1,13 @@
+# Normalise line endings so the repo stays consistent across Windows/Linux
+* text=auto eol=lf
+
+# Makefiles require literal tabs; never let CRLF creep in
+Makefile text eol=lf
+
+*.java text eol=lf
+*.md    text eol=lf
+
+# Binary / never diff
+*.class binary
+*.jar   binary
+*.zip   binary

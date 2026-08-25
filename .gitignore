@@ -1,0 +1,31 @@
+# --- Java build output ---
+*.class
+lib/
+*.jar
+submit.zip
+
+# --- Graph data sets (downloaded separately, multi-GB) ---
+GraphProcessing/graph.coo
+GraphProcessing/graph.csr
+GraphProcessing/graph.csc
+GraphProcessing/graph.csc-csr
+*.coo
+*.csr
+*.csc
+*.csc-csr
+
+# --- Program output ---
+GraphProcessing/outputfile*.txt
+
+# --- Submission bundles ---
+*.zip
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS junk ---
+Thumbs.db
+desktop.ini
+.DS_Store
